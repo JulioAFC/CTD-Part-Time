@@ -1,0 +1,39 @@
+.um{
+    color:red;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    padding: 50px;
+    margin: 0px 0px 100px 0px;
+    border: red solid 40px;
+}
+.dois{
+    color:red;
+    background-color: black;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    padding: 50px;
+    margin-top: 0%;
+    margin-left: 82%;
+    border: red solid 40px;
+}
+.tres{
+    color:black;
+    background-color: red;
+    position: fixed;
+    bottom: 10px;
+    right: 40%;
+    padding: 50px;
+    margin-top: 0%;
+    border: black solid 40px;
+}
+.quatro{
+    color:black;
+    position: fixed;
+    bottom: 100%;
+    right: 50%;
+}
+
+
