@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Nike Sb</title>
+    <link rel="stylesheet" href="./css/style.css"><!--Arquivo de css-->
+    <link rel="shortcut icon" href="./img/logo-nike-branco.jpg" type="image/x-icon" /><!--Favicon do site-->
+</head>
+<body>
+    
+   <div>
+       <h1 id="titulo"><strong>Formulário Nike SB</strong></h1>
+       <p id="subtitulo">Login</p>
+       <br>
+   </div>
+   <form>
+       <fieldset class="grupo">
+           <div class="campo">
+               <label for="nome"><strong>Nome:</strong></label>
+               <input type="text" name="nome" id="nome" required>
+           </div>
+           <br>
+           <div class="campo">
+               <label for="senha"><strong>Senha:</strong></label>
+               <input type="password" name="senha" id="senha" required>
+           </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="sexo"><strong>Sexo:</strong></label>
+            <select name="sexo" id="sexo">
+                <option selected disable value="">Selecione</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Outro">Não Binário/Outro</option>
+            </select>
+        </div>
+        
+        <fieldset class="grupo">
+            <div class="campo">
+                <label><strong>Selecione sua categoria:</strong></label>
+                <input type="checkbox" id="amador" name="amador" value="Amador">
+                <label for="amador">Amador</label>
+                <input type="checkbox" id="profissional" name="profissional" value="Profissional">
+                <label for="profissional">Profissional</label>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <br>
+            <label><strong>Experiência:</strong></label>
+            <textarea name="experiencia" id="experiencia" cols="30" rows="6" style="width:26em"></textarea>
+        </div>
+
+        <button class="botao1" type="submit">Enviar</button>
+        <button class="botao2" type="reset">Cancelar</button>
+   </form>
+   <img type="background-image" src="./img/logo-colorido.jpg" alt="logo nike sb colorido">
+</body>
+</html>
