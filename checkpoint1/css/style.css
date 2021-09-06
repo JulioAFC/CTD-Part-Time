@@ -1,0 +1,88 @@
+*{
+    font-family: 'Playfair Display', serif;
+    color:black;
+    margin: 0 auto;
+}
+body{
+    background-image: url(/img/jf01.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+main{
+    width: 70%;
+    background-color:white;
+    margin: 0 auto;
+    margin-top: 15%;
+    margin-right: auto;
+    padding: 20px;
+
+}
+
+#bandeira{
+    width: 90px;
+    height: 60px;
+    display: inline;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+#menu{
+    list-style-type: none;
+    padding: 0;
+    background-color: red;
+    position: fixed;
+    
+}
+#menu li{
+    display: inline;
+    position:relative;
+    
+    
+}
+#menu li a{
+    color:white;
+    padding: 19.5px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 236.7px;
+    margin-right: 100px;
+    transition: all .6s;   
+}
+#menu li a:hover{
+    background-color: blue;
+    border-radius: 10px;
+}
+h1{
+    display: block;
+}
+h1{
+    font-family: 'Kaisei HarunoUmi';
+    margin-top: 100px;
+    text-align: center;
+    font-size: 45px;
+    background-color: red;
+}
+.player{
+position:static;
+width: 100%;
+}
+.conheca{
+    font-size: 20px;
+}
+h2{
+    font-size: 35px;
+}
+#footer{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    margin:100px 200px 50px 300px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    font-size: 23px;
+}
