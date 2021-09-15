@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+    background-color: black;
+    color:gold
+}
+p::first-letter{
+    color:blue;
+}
+p::selection{
+    background-color: blue;
+}
+button, input:focus{
+    background-color: skyblue;
+}
+button:hover{
+    background-color: gold;
+    color: blue;
+    text-shadow: blue;
+    font-weight: bold;
+    border-radius: 15px;
+    border-bottom: salmon;
+}
