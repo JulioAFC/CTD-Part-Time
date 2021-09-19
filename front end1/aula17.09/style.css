@@ -1,0 +1,64 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color:white;
+    font-family: monospace, Courier, 'Courier New';
+    font-size: 35px;
+    font-style: oblique;
+    text-align: center;
+}
+h1:hover{
+    background-color:black;
+    color:red;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px
+}
+.filmes{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    display: inline-block;
+        
+}
+.marvel{
+    display:inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+        
+}
+
+div p, h2{
+    color:white;
+    font-family: monospace, Courier, 'Courier New';
+    font-size: 15px;
+    
+}
+footer img{
+    height: 80px;
+    height: 80px;
+    position: relative;
+    left: 130px;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 80px;
+}
+footer p{
+    display: block;
+    position: relative;
+    top:100px;
+    align-items: center;
+}
