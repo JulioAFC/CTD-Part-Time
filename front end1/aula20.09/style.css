@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body header{
+    background-color: black;
+    grid-area: header;
+    height: 220px;
+       
+}
+body aside{
+    background-color: black;
+    grid-area: aside;
+    height: 600px;
+}
+body main{
+    background-color: black;
+    grid-area: main;
+    height: 600px;
+    
+}
+body footer{
+    background-color: rgb(16, 8, 5);
+    grid-area: footer;
+    height: 180px;
+}
+body{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'footer footer';
+}
+.logo{
+    display: block;
+    position: relative;
+    align-items: center;
+    margin-left: 50%;
+}
+h2{
+    font-family: monospace;
+    color: whitesmoke;
+    font-size: 25px;
+    display: block;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 15%;
+    padding-top: 10%;
+}
+.logo2{
+    display: block;
+    position: relative;
+    margin-left: 40%;
+    height: 400px;
+    width: 500px;
+}
+p{
+    color:whitesmoke;
+    font-family: monospace;
+    font-size: 35px;
+    margin-top: 100px;
+    text-align: center;
+}
+.logo3{
+    display: block;
+    position: relative;
+    margin-left: 46%;
+    height: 180px;
+    width: 400px;
+}
+body header:hover{
+    background-color: red;
+    border-radius: 1px;
+}
+body main:hover{
+    background-color: red;
+    border-radius: 1px;
+}
+p:hover{
+    color: black;
+    border-radius: 1px;
+}
+body aside:hover{
+    background-color: red;
+    border-radius: 1px;
+}
+h2:hover{
+    color: black;
+    border-radius: 1px;
+}
+body footer:hover{
+    background-color: red;
+    border-radius: 1px;
+}
